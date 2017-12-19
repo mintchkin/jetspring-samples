@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e7e5d7;
+}
+
+/* Main Nav Bar */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background: maroon;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    background: red;
+}
+
+
+/* Article */
+
+article {
+    color: #131922;
+    margin: 20px;
+}
+
+article > header {
+    text-align: center;
+    margin: 2em 0;
+}
+
+article > header h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 27pt;
+}
+
+article > header p {
+    padding: 0;
+    margin: 0;
+}
+
+/* Article Sections */
+
+article > section h2 {
+    padding-left: 1em;
+    border-top: 1px solid #9b8185;
+    border-bottom: 1px solid #9b8185;
+}
+
+article > section p {
+    margin: 0;
+    text-align: justify;
+}
+
+
+/* Comments */
+
+#comments {
+    list-style-type: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+#comments details summary::-webkit-details-marker {
+    display: none;
+}
+
+#comments details {
+    border: 2px solid #9b8185;
+    border-radius: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#comments summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: maroon;
+    color: white;
+    cursor: pointer;
+}
+
+#comments summary > * {
+    margin: 5px 10px;
+}
+
+
+/* Footer Content */
+
+body > footer {
+    margin: 0;
+    padding: 0;
+    background: maroon;
+    text-align: center;
+}
+
+body > footer p {
+    color: white;
+    padding: 1em;
+    margin: 0;
+}
